@@ -11,7 +11,6 @@ process.on("SIGTERM", () => {
 	console.log("Caught interrupt signal");
 	process.exit();
 });
-console.log("COUCOU");
 
 (async () => {
 	const app = express();
