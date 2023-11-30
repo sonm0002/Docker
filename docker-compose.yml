@@ -7,3 +7,7 @@ services:
       - 5050:5000
   mongodb:
     image: mongo
+  client:
+    build: ./client
+    ports:
+      - 8080:3000
